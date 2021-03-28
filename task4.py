@@ -16,17 +16,18 @@ def movie_detailes():
     #    output = "".join(direct)
     #    Director.append(output)
 
-        runtime = soup.find(class_="title_wrapper").find("time").text.strip().replace("min","")
-        if "min" not in runtime :
+       runtime = soup.find(class_="title_wrapper").find("time").text.strip().replace("min","")
+       if "min" not in runtime :
            number = int(runtime[0]) * 60
-        else:
-            number = int(runtime[0])*60 + int(runtime[3:])
+       else:
+            number = int(runtime[0]) * 60 + int(runtime[3:])
+       print(number)
 
            
        
-        num = str(number)+"minutes"
-        print(num, c)
-        c+=1
+        # num = str(number)+"minutes"
+        # print(num, c)
+        # c+=1
     #    movie_time.append(num)
     
     
