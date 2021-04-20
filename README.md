@@ -9,5 +9,5 @@ Beautiful Soup is a Python package for parsing HTML and XML documents. It create
 
 Here, pip is a package-management system used to install and manage software packages written in Python.
 
-`sudo apt-get update && sudo apt-get install python3-pip
-pip3 install beautifulsoup4`
+`sudo apt-get update && sudo apt-get install python3-pip`
+`pip3 install beautifulsoup4`
